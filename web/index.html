@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizmo &amp; the Emotion Vectors</title>
+  <link href="./src/index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body class="relative">
+  <div id="gizmo-response" class="absolute top-0 left-0 w-full p-4 text-center">
+    <p class="text-white text-3xl font-['VT323'] bg-black bg-opacity-50 inline-block px-4 py-2 rounded"></p>
+  </div>
+  <div id="container"></div>
+  <form class="absolute bottom-0 w-full h-20">
+    <input id="chat" type="text"
+      class="w-full h-full border-0 bg-transparent focus-visible:outline-none text-white text-3xl px-8 text-center placeholder-white/40" />
+  </form>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
